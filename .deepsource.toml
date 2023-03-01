@@ -12,6 +12,16 @@ name = "ruby"
 [[analyzers]]
 name = "javascript"
 
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "vue",
+    "ember",
+    "meteor",
+    "angularjs",
+    "angular"
+  ]
+
 [[analyzers]]
 name = "php"
 
