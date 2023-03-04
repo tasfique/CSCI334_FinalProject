@@ -1,15 +1,6 @@
 version = 1
 
 [[analyzers]]
-name = "test-coverage"
-
-[[analyzers]]
-name = "docker"
-
-[[analyzers]]
-name = "ruby"
-
-[[analyzers]]
 name = "javascript"
 
   [analyzers.meta]
@@ -23,10 +14,4 @@ name = "javascript"
   ]
 
 [[analyzers]]
-name = "php"
-
-[[analyzers]]
 name = "sql"
-
-[[analyzers]]
-name = "csharp"
